@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <title>OTP Verification</title>
 </head>
 <body>
     <div class="container">
         <h1 id="verification_heading">Verify Your Account</h1>
-        <p id="verification_subtext">We emailed you the six digit code to acciojob@gmail.com. Enter the code below to confirm your email address</p>
+        <p id="verification_subtext">We emailed you the six digit code. Enter the code below to confirm your email address.</p>
+        
         <div class="code-container">
             <input type="text" maxlength="1" class="code" id="digit1" autofocus>
             <input type="text" maxlength="1" class="code" id="digit2">
@@ -15,9 +19,10 @@
             <input type="text" maxlength="1" class="code" id="digit5">
             <input type="text" maxlength="1" class="code" id="digit6">
         </div>
-        <p class="disclaimer">This is design only. We didn't actually send you an email, right?</p>
+
+        <p class="disclaimer">We didn't actually send you an email, this is just a demo.</p>
     </div>
     
-    <script type="text/javascript" src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

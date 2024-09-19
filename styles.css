@@ -1,61 +1,65 @@
-/*  your css code here. If applicable */
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-}
-body{
-	font-family:Arial,sans-serif;
-	background-color:#f0f0f0;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	height:100vh;
-}
-.container{
-	text-align:center;
-	padding:40px;
-	background-color:#fff;
-	border-radius:10px;
-	box-shadow:0 4px 10px rgba(0,0,0,0.1);
-	border:1px solid #ddd;
-	width:50%;
-	max-width:500px;
-}
-#verification_heading{
-	font-size:20px;
-	margin-bottom:10px;
-}
-#verification_subtex{
-	font-size:14px;
-	color:#666;
-	margin-bottom:20px;
-}
-.code-container{
-	display:flex;
-	justify-content:center;
-	gap:15px;
-	margin-bottom:20px;
-	
-}
-.code{
-	width:50px;
-	height:60x;
-	font-size:24px;
-	text-align:center;
-	border:1px solid #ccc;
-	border-radius:5px;
-	outline:none;
-	background-color:#f9f9f9;
-	transition:border-color 0.3s;
-	
-}
-.code:focus{
-	border-color:#333;
-}
-.disclaimer{
-	font-size:12px;
-	color:#aaa;
-	margin-top:20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    width: 50%;
+    max-width: 500px;
+}
+
+#verification_heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.code-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.code {
+    width: 50px;
+    height: 60px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+}
+
+.code:focus {
+    border-color: #333;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 20px;
+}
