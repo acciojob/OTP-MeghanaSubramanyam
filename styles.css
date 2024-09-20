@@ -30,7 +30,7 @@ body {
 }
 
 #verification_subtext {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     margin-bottom: 20px;
 }
@@ -38,7 +38,7 @@ body {
 .code-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     margin-bottom: 20px;
 }
 
