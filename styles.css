@@ -25,7 +25,7 @@ body {
 }
 
 #verification_heading {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
 }
 
@@ -53,25 +53,6 @@ body {
     background-color: #f9f9f9;
     transition: border-color 0.3s;
 }
-
-const inputs = document.querySelectorAll('.code');
-
-inputs.forEach((input, index) => {
-    input.addEventListener('input', () => {
-        if (input.value.length === 1 && index < inputs.length - 1) {
-            inputs[index + 1].focus();
-        }
-    });
-
-    input.addEventListener('keydown', (event) => {
-        if (event.key === 'Backspace' && input.value === "") {
-            if (index > 0) {
-                inputs[index - 1].focus();
-                inputs[index - 1].value = '';
-            }
-        }
-    });
-});
 .code:focus {
     border-color: #333;
 }
