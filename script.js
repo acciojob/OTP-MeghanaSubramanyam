@@ -23,12 +23,10 @@ const inputs = document.querySelectorAll('.code');
 inputs.forEach((input, index) => {
     // Listen for input event to move focus to the next input
     input.addEventListener('input', () => {
-        // Check if the current input has a value and it's not the last input
-        if (input.value.length === 1 && index < inputs.length - 1) {
-            // Move focus to the next input
-            inputs[index + 1].focus();
-        }
-    });
+    if(input.value.length===1 && index<inputs.length-1){
+        inputs[index+1].focus();
+    }
+});
 
     // Listen for keydown event to handle backspace behavior
     input.addEventListener('keydown', (event) => {
