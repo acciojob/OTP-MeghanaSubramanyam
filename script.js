@@ -24,7 +24,7 @@ inputs.forEach((input, index) => {
     // Listen for input event to move focus to the next input
     input.addEventListener('input', () => {
     if(input.value.length===1 && index<inputs.length-1){
-        inputs[index+1].focus();
+        setTimeout(() => inputs[index+1].focus(), 10);
     }
 });
 
